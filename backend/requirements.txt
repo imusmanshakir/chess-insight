@@ -1,0 +1,30 @@
+Backend
+  │
+  ├── 1. Project setup          ← START HERE
+  ├── 2. Board representation
+  ├── 3. Pawn movement
+  ├── 4. Rook movement
+  ├── 5. Knight movement
+  ├── 6. Bishop movement
+  ├── 7. Queen movement
+  ├── 8. King movement
+  ├── 9. Captures
+  ├── 10. Check
+  ├── 11. Checkmate
+  ├── 12. Special moves
+  │
+  └── FastAPI
+       │
+       └── React
+
+
+                 CHESS GAME
+                     │
+        ┌────────────┼────────────┐
+        ↓            ↓            ↓
+      Board        Pieces        Rules
+        │            │            │
+    positions     identity     legality
+        │            │            │
+    "e4"         Knight        check?
+                  White         checkmate?
