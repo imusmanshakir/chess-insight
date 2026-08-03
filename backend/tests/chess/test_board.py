@@ -1,7 +1,6 @@
 from backend.app.chess.board import Board
 from backend.app.chess.pieces import Color, PieceType
 
-
 def test_initial_board_has_white_king_on_e1():
     board = Board()
 
